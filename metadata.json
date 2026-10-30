@@ -1,0 +1,6 @@
+{
+  "name": "Raja Boss VIP Channel & Tracking Panel",
+  "description": "Telegram VIP Channel landing page and admin tracking panel with Meta Conversions API (CAPI) & Telegram Bot integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
