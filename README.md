@@ -23,27 +23,37 @@ Telegram VIP Channel landing page and admin tracking panel with Meta Conversions
   - Telegram Bot Setup (`/admin/telegram`) with `@BotFather` and Channel ID (`-1004394136528`).
   - Meta Pixel & CAPI Settings (`/admin/meta`).
 
-## 🛠️ Tech Stack
+---
 
-- **React 19** + **TypeScript**
-- **Vite**
-- **Tailwind CSS v4**
-- **Supabase** (`@supabase/supabase-js`)
-- **Lucide Icons**
+## 🌐 cPanel Hosting Deployment (Direct Upload)
 
-## 💻 Local Development
+Aap is project ko kisi bhi cPanel Shared Hosting (Hostinger, Namecheap, GoDaddy, Bluehost, etc.) par 2 minute me live kar sakte hain:
+
+1. **Build generate karein**:
+   ```bash
+   npm run build
+   ```
+2. **`dist` folder ke andar ki saari files**:
+   - `.htaccess`
+   - `index.html`
+   - `assets/`
+   - `api/`
+3. **cPanel File Manager** kholiye:
+   - Apne cPanel me **File Manager** par jaiye.
+   - `public_html/` folder kholiye.
+   - Yeh saari files `public_html/` me upload kar dijiye (ya `cpanel_public_html.zip` upload karke wahan **Extract** kar lijiye).
+4. **Done!** Aapki website live ho jayegi.
+
+---
+
+## 🛠️ Local Development
 
 1. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Start development server:
+2. Start development server:
    ```bash
    npm run dev
    ```
@@ -51,6 +61,6 @@ Telegram VIP Channel landing page and admin tracking panel with Meta Conversions
 
 ## 🔑 Admin Login
 
-- **URL**: [http://localhost:3000/login](http://localhost:3000/login)
+- **URL**: [https://yourdomain.com/login](https://yourdomain.com/login)
 - **Email**: `balajiofficialsatkamatka4@gmail.com`
 - **Password**: `balaji8094`
